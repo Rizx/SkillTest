@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj": {}
+    "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj": {
+    "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj",
         "projectName": "SkillTest.Core",
-        "projectPath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -34,7 +34,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "CSharpFunctionalExtensions": {
               "target": "Package",
@@ -51,12 +51,6 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[3.1.3, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
@@ -77,6 +71,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }

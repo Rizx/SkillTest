@@ -29,19 +29,19 @@ namespace SkillTest.API.Controllers
             return Ok(result);
         }
 
-        [HttpGet]
-        public IActionResult GetData()
-        {
-            var result = _messages.Query(new DataListQuery());
-            return Ok(result);
-        }
+        // [HttpGet]
+        // public IActionResult GetData()
+        // {
+        //     var result = _messages.Query(new DataListQuery());
+        //     return Ok(result);
+        // }
 
-        [HttpGet]
-        public IActionResult GetGroupByLokasi()
-        {
-            var result = _messages.Query(new GroupByLokasiQuery());
-            return Ok(result);
-        }
+        // [HttpGet]
+        // public IActionResult GetGroupByLokasi()
+        // {
+        //     var result = _messages.Query(new GroupByLokasiQuery());
+        //     return Ok(result);
+        // }
 
         [HttpPost]
         public IActionResult CreateData([FromBody] NewDataDto dto)

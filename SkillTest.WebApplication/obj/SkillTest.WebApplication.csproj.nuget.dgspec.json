@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj": {}
+    "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj": {
+    "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj",
         "projectName": "SkillTest.WebApplication",
-        "projectPath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"

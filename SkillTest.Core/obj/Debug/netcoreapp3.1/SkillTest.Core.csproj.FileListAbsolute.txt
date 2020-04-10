@@ -1,0 +1,9 @@
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\bin\Debug\netcoreapp3.1\SkillTest.Core.deps.json
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\bin\Debug\netcoreapp3.1\SkillTest.Core.dll
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\bin\Debug\netcoreapp3.1\SkillTest.Core.pdb
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\obj\Debug\netcoreapp3.1\SkillTest.Core.csprojAssemblyReference.cache
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\obj\Debug\netcoreapp3.1\SkillTest.Core.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\obj\Debug\netcoreapp3.1\SkillTest.Core.AssemblyInfoInputs.cache
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\obj\Debug\netcoreapp3.1\SkillTest.Core.AssemblyInfo.cs
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\obj\Debug\netcoreapp3.1\SkillTest.Core.dll
+C:\Users\ASUS\Project\SkillTest\SkillTest.Core\obj\Debug\netcoreapp3.1\SkillTest.Core.pdb

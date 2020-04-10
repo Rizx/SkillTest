@@ -15,7 +15,7 @@ namespace SkillTest.Core
 
         public List<LokasiDto> Handle(LokasiListQuery args)
         {
-            return _context.Lokasi
+            return _context.Lokasi.AsNoTracking()
             .Select( x=> new LokasiDto()
             {
                 LokasiID = x.ID,
