@@ -5,9 +5,9 @@ namespace SkillTest.Core
         public long ID { get; }
         public string Judul { get; }
         public string Keterangan { get; }
-        public byte[] Foto { get; }
+        public string Foto { get; }
         public long LokasiID { get; }
-        public DataCreateCommand(long dataId, string judul, string keterangan, byte[] foto, long lokasiId)
+        public DataCreateCommand(long dataId, string judul, string keterangan, string foto, long lokasiId)
         {
             ID = dataId;
             Judul = judul;
@@ -21,10 +21,10 @@ namespace SkillTest.Core
     {
         public long ID { get; }
         public string Keterangan { get; }
-        public byte[] Foto { get; }
+        public string Foto { get; }
         public long LokasiID { get; }
 
-        public DataUpdateCommand(long dataId, string keterangan, byte[] foto, long lokasiId)
+        public DataUpdateCommand(long dataId, string keterangan, string foto, long lokasiId)
         {
             this.ID = dataId;
             this.Keterangan = keterangan;

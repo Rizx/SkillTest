@@ -7763,11 +7763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.CoreTest\\SkillTest.CoreTest.csproj",
+      "projectUniqueName": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.CoreTest\\SkillTest.CoreTest.csproj",
       "projectName": "SkillTest.CoreTest",
-      "projectPath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.CoreTest\\SkillTest.CoreTest.csproj",
+      "projectPath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.CoreTest\\SkillTest.CoreTest.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.CoreTest\\obj\\",
+      "outputPath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.CoreTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7781,8 +7781,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj"
+            "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj": {
+              "projectPath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj"
             }
           }
         }

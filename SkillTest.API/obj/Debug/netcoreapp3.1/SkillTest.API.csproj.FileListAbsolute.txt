@@ -37,3 +37,8 @@ C:\Users\ASUS\Project\SkillTest\SkillTest.API\obj\Debug\netcoreapp3.1\staticweba
 C:\Users\ASUS\Project\SkillTest\SkillTest.API\obj\Debug\netcoreapp3.1\SkillTest.API.dll
 C:\Users\ASUS\Project\SkillTest\SkillTest.API\obj\Debug\netcoreapp3.1\SkillTest.API.pdb
 C:\Users\ASUS\Project\SkillTest\SkillTest.API\obj\Debug\netcoreapp3.1\SkillTest.API.genruntimeconfig.cache
+C:\Users\ASUS\Project\SkillTest\SkillTest.API\obj\Debug\netcoreapp3.1\SkillTest.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\Project\SkillTest\SkillTest.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\ASUS\Project\SkillTest\SkillTest.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ASUS\Project\SkillTest\SkillTest.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ASUS\Project\SkillTest\SkillTest.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

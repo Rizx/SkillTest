@@ -20,7 +20,8 @@ namespace SkillTest.WebApplication.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<LokasiDto> data = ApiClient.GetLokasiList().ConfigureAwait(false).GetAwaiter().GetResult();
+            return View(data);
         }
 
         public IActionResult Privacy()

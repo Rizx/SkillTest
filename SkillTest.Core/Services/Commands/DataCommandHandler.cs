@@ -1,3 +1,7 @@
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using CSharpFunctionalExtensions;
+
 namespace SkillTest.Core
 {
     public class DataCommandHandler :
@@ -13,35 +17,46 @@ namespace SkillTest.Core
             _context = context;
         }
 
-        public void Handle(DataCreateCommand args)
+        public Result Handle(DataCreateCommand args)
         {
             var data = ConvertToModel(args);
             _context.Data.Add(data);
             _context.SaveChanges();
+            return Result.Ok();
         }
 
-        public void Handle(DataUpdateCommand args)
+        public Result Handle(DataUpdateCommand args)
         {
-            UpdateData(ConvertToModel(args));
-        }
+            var data = ConvertToModel(args);
+            var old =_context.Data.AsNoTracking().ToList()
+                .SingleOrDefault(x=>x.ID == args.ID);
 
-        public void Handle(DataUpdateJudulCommand args)
-        {
-            UpdateData(ConvertToModel(args));
-        }
-
-        public void Handle(DataDeleteCommand args)
-        {
-            var data = _context.Data.Find(args.ID);
-            _context.Data.Remove(data);
+            old.Change(data);
+            _context.Data.Update(old);
             _context.SaveChanges();
+            return Result.Ok();
         }
 
-        private void UpdateData(Data data)
+        public Result Handle(DataUpdateJudulCommand args)
         {
-            _context.Data.Attach(data);
-            _context.Data.Update(data);
+            var data = ConvertToModel(args);
+            var old =_context.Data.AsNoTracking().ToList()
+                .SingleOrDefault(x=>x.ID == args.ID);
+
+            old.GantiJudul(data);
+            _context.Data.Update(old);
             _context.SaveChanges();
+            return Result.Ok();
+        }
+
+        public Result Handle(DataDeleteCommand args)
+        {
+            var old =_context.Data.AsNoTracking().ToList()
+                .SingleOrDefault(x=>x.ID == args.ID);
+
+            _context.Data.Remove(old);
+            _context.SaveChanges();
+            return Result.Ok();
         }
 
         private Data ConvertToModel(DataCreateCommand dto)

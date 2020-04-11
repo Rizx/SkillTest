@@ -1,3 +1,5 @@
+using CSharpFunctionalExtensions;
+
 namespace SkillTest.Core
 {
     public interface ICommandArgs
@@ -8,6 +10,6 @@ namespace SkillTest.Core
     public interface ICommandHandler<TArgs>
         where TArgs : ICommandArgs
     {
-        void Handle(TArgs args);
+        Result Handle(TArgs args);
     }
 }

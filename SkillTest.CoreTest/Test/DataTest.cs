@@ -51,7 +51,7 @@ namespace SkillTest.CoreTest
             var data = Any.Instance<DataCreateCommand>();
             var keterangan = Any.Instance<string>();
             var lokasiId = Any.Instance<long>();
-            var foto = Any.Instance<byte[]>();
+            var foto = Any.Instance<string>();
             var expected = new DataUpdateCommand(data.ID,keterangan,foto,lokasiId);
             Data actual = null;
 

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Wc0GwVFesOOj6E1gF6Z/wGxvZPY03E1r3l23WXSgXAY4ojkzwZX0TO+4poUb4vtluvxt8hhoebByidbNS1YP4g==",
+  "dgSpecHash": "5sSAz5QpanbKWZHKPZlNx7RqLeO2elgRfoLlhNU16oxLdhYiRZd8o7X687pclNbb35DvQQ5P4O55DH4y7DERDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.WebApplication\\SkillTest.WebApplication.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\csharpfunctionalextensions\\2.6.0\\csharpfunctionalextensions.2.6.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

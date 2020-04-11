@@ -4,10 +4,10 @@ namespace SkillTest.Core
     {
         public string Judul { protected set; get; }
         public string Keterangan { protected set; get; }
-        public byte[] Foto { protected set; get; }
+        public string Foto { protected set; get; }
         public long LokasiID {protected set; get; }
 
-        public Data(long id, string judul, string keterangan, byte[] foto, long lokasiId)
+        public Data(long id, string judul, string keterangan, string foto, long lokasiId)
         {
             ID = id;
             Judul = judul;
@@ -16,7 +16,7 @@ namespace SkillTest.Core
             LokasiID = lokasiId;
         }
 
-        public Data(long id, string keterangan, byte[] foto, long lokasiId)
+        public Data(long id, string keterangan, string foto, long lokasiId)
         {
             ID = id;
             Keterangan = keterangan;
@@ -30,7 +30,7 @@ namespace SkillTest.Core
             Judul = judul;
         }
 
-        public Data(string judul, string keterangan, byte[] foto, long lokasiId)
+        public Data(string judul, string keterangan, string foto, long lokasiId)
         : this(0, judul, keterangan, foto, lokasiId)
         {
         }
@@ -41,14 +41,14 @@ namespace SkillTest.Core
 
         public void Change(Data data)
         {
-            Keterangan = Keterangan;
+            Keterangan = data.Keterangan;
             Foto = data.Foto;
             LokasiID = data.LokasiID;
         }
 
-        public void GantiJudul(string judul)
+        public void GantiJudul(Data data)
         {
-            Judul = judul;
+            Judul = data.Judul;
         }
     }
 }

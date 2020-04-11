@@ -31,7 +31,7 @@ namespace SkillTest.CoreTest
                         var dummyData = new Data(Any.Instance<long>(),
                          Any.Instance<string>(),
                          Any.Instance<string>(),
-                         Any.Instance<byte[]>(),
+                         Any.Instance<string>(),
                          dummyLokasi.ID);
                          context.Data.Add(dummyData);
                     }
@@ -47,38 +47,6 @@ namespace SkillTest.CoreTest
                 // Assert.True(actual.Count == 0);
                 Assert.True(actual.Count > 0);
             }
-        }
-    }
-
-    public class GroupByLokasiQueryHandler
-    {
-        private readonly SkillTestContext _context;
-
-        public GroupByLokasiQueryHandler(SkillTestContext context)
-        {
-            _context = context;
-        }
-
-        public List<GroupByLokasiDto> Handle(GroupByLokasiQuery query)
-        {
-            var result = (from lokasi in _context.Lokasi
-                select new GroupByLokasiDto()
-                {
-                    LokasiID = lokasi.ID,
-                    Deskripsi = lokasi.Deskripsi,
-                    Lines = (from data in _context.Data
-                            where lokasi.ID == data.LokasiID
-                            select new DataDto()
-                            {
-                                DataID = data.ID,
-                                Judul = data.Judul,
-                                Keterangan = data.Keterangan,
-                                Foto = data.Foto,
-                                LokasiID = data.LokasiID,
-                            }).ToList()
-                }).ToList();
-
-            return result;
         }
     }
 }

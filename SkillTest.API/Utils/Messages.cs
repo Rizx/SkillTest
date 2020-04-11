@@ -20,7 +20,9 @@ namespace SkillTest.API
             Type handlerType = type.MakeGenericType(typeArgs);
 
             dynamic handler = _provider.GetService(handlerType);
-            return (Result)handler.Handle((dynamic)command);
+            Result result = handler.Handle((dynamic)command);
+
+            return result;
         }
 
         public T Query<T>(IQueryArgs<T> query)
@@ -30,7 +32,9 @@ namespace SkillTest.API
             Type handlerType = type.MakeGenericType(typeArgs);
 
             dynamic handler = _provider.GetService(handlerType);
-            return (T)handler.Handle((dynamic)query);
+            T result = handler.Handle((dynamic)query);
+
+            return result;
         }
     }
 }

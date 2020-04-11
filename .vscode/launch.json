@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/SkillTest.API/bin/Debug/netcoreapp3.1/SkillTest.API.dll",
+            "program": "${workspaceFolder}/SkillTest.WebApplication/bin/Debug/netcoreapp3.1/SkillTest.WebApplication.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/SkillTest.API",
+            "cwd": "${workspaceFolder}/SkillTest.WebApplication",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",

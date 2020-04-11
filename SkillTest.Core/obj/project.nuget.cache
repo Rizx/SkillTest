@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ejwj04O28+5bWXGFwZUGDGK75ukB8b+J2r4LtmbvtG3mgo+H9jypHLzB8rbzSPbguHSISuYGOQfbW/0daTXLXg==",
+  "dgSpecHash": "5llcCeqk21m+fTMdkqGgk/ybJMgBVC+AUS4O3QPaOgQP+g6CrYAtDrRlNhWfz7UP1IiYaW67qA+X9iPh5BpGJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj",
+  "projectFilePath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.Core\\SkillTest.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\csharpfunctionalextensions\\2.6.0\\csharpfunctionalextensions.2.6.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.14\\microsoft.entityframeworkcore.2.1.14.nupkg.sha512",

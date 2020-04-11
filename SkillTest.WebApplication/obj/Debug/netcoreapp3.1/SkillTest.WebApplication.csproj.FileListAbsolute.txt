@@ -35,3 +35,5 @@ C:\Users\ASUS\Project\SkillTest\SkillTest.WebApplication\obj\Debug\netcoreapp3.1
 C:\Users\ASUS\Project\SkillTest\SkillTest.WebApplication\obj\Debug\netcoreapp3.1\SkillTest.WebApplication.pdb
 C:\Users\ASUS\Project\SkillTest\SkillTest.WebApplication\obj\Debug\netcoreapp3.1\SkillTest.WebApplication.genruntimeconfig.cache
 C:\Users\ASUS\Project\SkillTest\SkillTest.WebApplication\obj\Debug\netcoreapp3.1\SkillTest.WebApplication.csproj.CopyComplete
+C:\Users\ASUS\Project\SkillTest\SkillTest.WebApplication\bin\Debug\netcoreapp3.1\CSharpFunctionalExtensions.dll
+C:\Users\ASUS\Project\SkillTest\SkillTest.WebApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

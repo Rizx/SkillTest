@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WVUsbjEosZaIsgkFqMKiFCVo/tGTgh01ojVLZD97RCMPPYf6MMWMPSAx6rvujMQ/kBtTK92ojtqpS6JAYurivg==",
+  "dgSpecHash": "C3SnkYWkH+ANAaxfKnSU3rQw3pXuqcvRiMMJUgbjLrXvsJcqL6Dnbt6axba2dH+/yStDIavmh4riOri88s6mqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.CoreTest\\SkillTest.CoreTest.csproj",
+  "projectFilePath": "c:\\Users\\ASUS\\Project\\SkillTest\\SkillTest.CoreTest\\SkillTest.CoreTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\any\\4.2.1\\any.4.2.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\autofixture\\4.11.0\\autofixture.4.11.0.nupkg.sha512",
